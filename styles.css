@@ -1,0 +1,47 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin: 0;
+
+}   
+.container{
+    background: rgb(236, 205, 164);
+    border: 8px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    color: saddlebrown;
+}
+label{
+    display: block;
+    margin: 10px 0 5px;
+}
+input[type="date"]{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 20px);
+    margin-bottom: 25px;
+}
+button{
+    padding: 10px 15px;
+    background-color: blanchedalmond;
+    color: saddlebrown;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+button:hover{
+    background-color: saddlebrown;
+}
+#result{
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: saddlebrown;
+}
